@@ -1,0 +1,51 @@
+.main-footer {
+  margin-top: 5rem;
+    align-items: center;
+    color: black;
+    background-color: #161414;
+    padding-top: 2em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .Tmm__F{
+    margin-top: 2%;
+  }
+  .Call_Tmm{
+    margin-top: 6%;
+    margin-left: 43%;
+    width: 15%;
+  }
+  .container{
+    margin-left: 10%;
+    margin-right: 5%;
+    align-items: center;
+    display: flex;
+  }
+  .col-f{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  .row-f{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .col-sm{
+    color: white;
+    background-color: #161414;
+    padding: 1em;
+    text-align: center;
+  }
+  .Social__media2{
+    text-align: center;
+    color: white;
+  }
+  .img_l{
+    margin-left: 25%;
+    width:50%;
+  }

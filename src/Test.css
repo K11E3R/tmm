@@ -1,0 +1,201 @@
+/*             -------------navbar---------------             */
+*{box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a  {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 25px;
+}
+.icon{
+  text-align: center;
+  padding: 12%;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+
+  
+}
+.icon:hover{
+  background-color:red;
+  color:white;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: red;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+#navbar-center {
+  display: flex;
+  flex-direction: row;
+}
+.nav-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, -50%);
+}
+.logo{
+  width: 100px;
+}
+
+
+/*        ---------------header---------------      */
+.header {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+ 
+}
+.Adresse {
+  color: #898b8a;
+  margin-right: 4rem;
+}
+.Adresse__{
+  color: #707070;
+  margin-left: 5rem;
+}
+.tel{
+  color: #707070;
+  margin-right: 5rem;
+}
+.flag__Morocco{
+  width: 25px;
+  height: 15px;
+}
+.Morocco{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Social__media{
+  display: flex;
+  flex-direction: row;
+  row-gap: 3em;
+  margin: 3mm;
+  margin-right: 5rem;
+}
+.Social__media__item{
+  margin: 0 5px;
+}
+.drawe{
+  display: none;
+}
+@media screen and (max-width: 1080px) {
+  .header {
+      display: flex;
+      font-size: 12px;
+  }
+  .navbar.responsive a{
+    width: 50%;
+  }
+  .drawe{
+    display: flex;
+    float: right;
+  }
+  .Social__media{
+      margin-right: 0rem;
+  }
+  .Adresse {
+      display: none;
+  }
+  .Adresse__{
+      display: none;
+  }
+  .tel{
+      display: none;
+  }
+}
+/* ----------------------hidemenu-------------- */
+.nav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 1080px) {
+  .nav-1 .Title{display: none;}
+  .nav-1 a {display: none;}
+  .nav .icon {
+    display: none;
+  }
+  .nav .a {
+    float: right;
+    display: block;
+  }
+  .drawe{
+    display: flex;
+    float: right;
+  }
+  #navbar-right{
+    display: none;
+  }
+  .nav-1 {
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .drawe{
+    display: flex;
+    float: right;
+  }
+  .nav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+  }  
+}
+
+
+

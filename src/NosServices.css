@@ -1,0 +1,121 @@
+.services{
+    width: 100%;
+    margin-top: 8.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #161414;
+    margin-bottom: -5rem;
+}
+.service__presentation{
+    background-color:#161414;
+    color: white;
+    text-align: center;
+}
+.home_title{
+    margin-top: 10%;
+    margin-bottom: -3rem;
+}
+.srvices__header{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.title__service{
+    margin-top: 2%;
+}
+.service__Courier{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 5rem;
+}
+.service__logo{
+    width: 10%;
+    height: 5%;
+}
+.service__contenu__white{
+    text-align: center;
+    color: white;
+    padding: 5rem;
+}
+.service__Bagages{
+    background-color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 5rem;
+}
+.service__contenu__black{
+    text-align: center;
+    color: black;
+    padding: 5rem;
+}
+.service__Ecommerce{
+    background-color:#5C5C5C;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 5rem;
+}
+/* #5C5C5C */
+/* ------------------ slick --------------------- */
+.contai{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.card-wrapper{
+    color: black; 
+    margin: 2.5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width: 80%;
+}
+.details{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.details a {
+    background-color:black;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.services_img{
+    width: 70%;
+}
+.ecomm{
+    margin-top: 0.5rem;
+    width: 68%;
+}
+.bagg{
+    width: 74%;
+}
+.domestic{
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+.evenements{
+    margin-top: 0.7rem;
+}
+.chariot{
+    margin-bottom: -1rem;
+    width: 80%;
+}
+.service__client{
+    color: black;
+    font-size: 18px;
+}

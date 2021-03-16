@@ -1,0 +1,90 @@
+.faire__envoi{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.envoi__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.form{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.form__{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.code__{
+    display: flex;
+    flex-direction: column;
+}
+.de__a{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.sui{
+    text-align: center;
+    margin-top: 2rem;
+}
+.sui a{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .en{
+    margin-left: 3rem;
+  }
+  .space{
+    margin-left: 19rem;
+  }
+  /*-------------------- Expedition --------------------*/
+  .expedition{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.form__info{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+   
+    
+}
+.info__{
+    display: flex;
+    flex-direction: column;
+}
+.details__info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+.details__type{
+    margin-right: 1rem;
+}
+.details__inf{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}

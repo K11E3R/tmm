@@ -1,0 +1,55 @@
+.nous{
+  margin-top: 10%;
+  width: 100%;
+  padding: 3%;
+  background-color: #ddd;
+  margin-bottom: -6%;
+}
+.titl{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: red;
+}
+.ti{
+  margin-top: 1rem;
+  color: red;
+}
+.presentation__text{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Presentation{
+  margin-bottom: 2%;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 5%;
+    align-items: center;
+    display: flex;
+  }
+  .col{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .row{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .nous{
+      margin-top: 30%;
+      margin-bottom: -16%;
+    }
+    .presentation__ad{
+      font-size: 10px;
+    }
+    .Presentation {
+        font-size: 10px;
+    }
+  }

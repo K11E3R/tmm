@@ -1,0 +1,17 @@
+.manifeste{
+    display: flex;
+    flex-direction: row;
+    background-color:#ddd;
+    margin-top: 20rem;
+    margin-bottom: 13rem;
+    align-content: center;
+}
+.cardd{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.card :card{
+    padding:1rem;
+
+}

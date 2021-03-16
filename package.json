@@ -1,0 +1,67 @@
+{
+  "name": "sky-tmm-l20",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.5.1",
+    "material-ui-search-bar": "^1.0.0",
+    "mdbreact": "^4.27.0",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-buttons": "^1.0.0",
+    "react-card-slide": "^1.0.13",
+    "react-country-region-selector": "^3.0.1",
+    "react-dom": "^17.0.1",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-phone-input-2": "^2.13.9",
+    "react-phone-number-input": "^3.1.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-slick": "^0.27.13",
+    "react-slideshow-image": "^3.3.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+	"start-api": "cd api && venv/Scripts/activate && flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+	
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+  "homepage": "/Accueil"
+}

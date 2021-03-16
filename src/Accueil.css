@@ -1,0 +1,88 @@
+.accueil{
+  margin-top: 12rem;
+  display: flex;
+}
+
+.suivi{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  text-align: center;
+  color: black;
+}
+.suivi Button{
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 12px;
+}
+
+.tit{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.Notre__metier{
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.title__1{
+  margin-top: 5rem;
+  width: 50%;
+}
+.title__p{
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
+}
+.title__1 a{
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.title__img{
+  margin-left: 5em;
+  width: 50%;
+}
+.expertise{
+  display: flex;
+  background-color: #f1f1f1;
+}
+.partenaires{
+  background-color: gray; 
+}
+.slider__partenaire{
+  padding: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.expedier{
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  align-content: center;
+}
+.title__exp{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.tst{
+  width: 80%;
+  height: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.button__colis{
+  margin-right: 3rem;
+}
+
