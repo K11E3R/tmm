@@ -14,7 +14,6 @@ import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import './search.css'
-	
 
 const useStyles = makeStyles((theme) => ({
 	cardMedia: {
@@ -62,20 +61,6 @@ const Search = () => {
 	return (
 		<React.Fragment>
 			<Container maxWidth="md" component="main" className="card-header">
-				
-				<div id="divDate">
-					<form>
-						<div class="searchDate">
-							<label for="day">Veuillez saisir les dates de debut de fin :</label>
-							<td><input type="date" name="date1"class='form-control' id="debut"></input></td>
-							<td><input type="date" name="date2"class='form-control' id="fin"></input></td>
-							<input type='submit' value='valider' class='btn btn-primary' id="Submit" ></input>
-						    <input type='submit' value='Export' class='btn btn-primary' id="Submit1"></input>
-						</div>
-					</form>
-				</div>
-				<script type="text/javascript" src="Sdate.js" ></script>
-				
 				<Paper className={classes.root}>
 					<TableContainer className={classes.container}>
 						<Table stickyHeader aria-label="sticky table">
@@ -136,7 +121,6 @@ const Search = () => {
 											href={'/admin/create'}
 											variant="contained"
 											color="Secondary"
-											id="Nbutton"
 										>
 											Nouvelle Expedition
 										</Button>

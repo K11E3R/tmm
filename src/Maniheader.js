@@ -64,7 +64,7 @@ function myFunction() {
             {/* language*/}
             <h3 className="Language">English</h3>
             <Link to="/Logout" className="">
-                <h3 className="Language">Connexion</h3>
+                <h3 className="Language">Se deconnecter</h3>
             </Link>
             </div>
                 <Link to="/Gererenvois" className="">
@@ -83,7 +83,6 @@ function myFunction() {
                     <Button component={ Link } to="/envois">Faire un envoi</Button>
                     <Button component={ Link } to="/Gererenvois">Gerer les envois</Button>
                     <Button component={ Link } to="/admin/create">Creer un manifeste</Button>
-                    <Button component={ Link } to="./components/Posts/search">Creer un manifeste</Button>
                 </ButtonGroup>
                     
                     <button className="icon" onClick={myFunction}>

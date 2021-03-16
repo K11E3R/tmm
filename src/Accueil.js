@@ -1,6 +1,6 @@
-import React , {useState} from 'react';
-import './Accueil.css';
-import Slideshow from './Slides.js';
+import React , {useState} from 'react'
+import './Accueil.css'
+import Slideshow from './Slides.js'
 import Slider from "react-slick";
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
