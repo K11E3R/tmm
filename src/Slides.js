@@ -17,18 +17,18 @@ const Slideshow = () => {
         <Slide {...proprietes}>
           <div className="each-slide">
               <div>
-                  <img src='../imageonline-co-logoadded.png' alt='img1'/>
+                  <img src='../imageonline-co-logoadded.png' alt='img1' className="each-slideI"/>
                   
               </div>
           </div>
           <div className="each-slide">
             <div>
-                  <img src='../imageonline-co-logoadded-3-2.png' alt='img1' />
+                  <img src='../imageonline-co-logoadded-3-2.png' alt='img1' className="each-slideI"/>
             </div>
           </div>
           <div className="each-slide">
             <div>
-                  <img src='../imageonline-co-logoadded-9.png' alt='img1' />
+                  <img src='../imageonline-co-logoadded-9.png' alt='img1' className="each-slideI"/>
             </div>
           </div>
         </Slide>

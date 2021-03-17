@@ -15,10 +15,11 @@ function Footer() {
             <h4 className="Tmm__F">TMM</h4>
             <img alt="logo" className="img_l" src="../TMM__logo-4.png" />
             <li>
-              <h5>TMM est le 1er réseau du courrier, colis et la logistique d’événements express au Maroc et l'international .</h5>
+              <h5>TMM est le 1er réseau du courrier, <br>
+                </br>colis et la logistique d’événements express au Maroc et l'international .</h5>
             </li>
             <br/>
-            <Link to="Nous">Nous connaitre</Link>
+            <Link to="Nous" >Nous connaitre</Link>
           </div>
           {/* Column2 */}
           <div className="col-f">
@@ -36,7 +37,9 @@ function Footer() {
             <br/>
             <h4>Contact</h4>
             <li >
-              <h5>Email: info@tmmorocco.com Tél.: +212 (0) 522-272-730 / (0) 522-273-162 Fax: +212 (0) 522-272-691</h5>
+              <h5>Email: info@tmmorocco.com</h5>
+              <h5> Tél.: +212 (0) 522-272-730 / (0) 522-273-162</h5>
+              <h5> Fax: +212 (0) 522-272-691</h5>
             </li>
           </div>
         </div>

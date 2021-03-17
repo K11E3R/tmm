@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Test.css'
+import './SRbutton.css'
 import { FontAwesomeIcon,  } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter ,faInstagram } from "@fortawesome/free-brands-svg-icons"
 import {faBars} from "@fortawesome/free-solid-svg-icons"
@@ -63,26 +64,27 @@ function myFunction() {
 
             {/* language*/}
             <h3 className="Language">English</h3>
-            <Link to="/Logout" className="">
-                <h3 className="Language">Se deconnecter</h3>
+            <Link to="/SignSide" className="">
+                <h3 className="Language">Se connecter</h3>
             </Link>
             </div>
-                <Link to="/Gererenvois" className="">
+                <Link to="/Accueil" className="">
                 <a id="logo"><img src="../TMM__logo.png" alt=""/></a>
                 </Link>
                 <div className="nav-1">
-                    <h2 className="Title" color="secondary">WE DELIVER PEACE OF MIND</h2>
+                    <h2 className="Title" color="secondary" className="titre">WE DELIVER PEACE OF MIND</h2>
                     <br></br>
                 <div className="nav" id="navbar-center">
-                <ButtonGroup variant="contained" color="secondary" aria-label="contained primary button group">
                 <SearchBar
 						value={data.search}
 						onChange={(newValue) => setData({ search: newValue })}
 						onRequestSearch={() => goSearch(data.search)}
 					/>
-                    <Button component={ Link } to="/envois">Faire un envoi</Button>
-                    <Button component={ Link } to="/Gererenvois">Gerer les envois</Button>
-                    <Button component={ Link } to="/admin/create">Creer un manifeste</Button>
+                <ButtonGroup variant="contained" color="secondary" aria-label="contained primary button group">
+                    <Button component={ Link } to="/envois" className="B1">Faire un envoi</Button>
+                    <Button component={ Link } to="/Gererenvois"className="B1">Gerer les envois</Button>
+                    <Button component={ Link } to="/admin/create"className="B1">Creer un manifeste</Button>
+                    
                 </ButtonGroup>
                     
                     <button className="icon" onClick={myFunction}>
@@ -92,7 +94,9 @@ function myFunction() {
 
                 </div> 
                 <div id="navbar-right">
-                    <a href="#" id="logo"><img src="../envoi__logo_T-.png" alt="" /></a>
+                <Link to="/Accueil" className="">
+                    <a  id="logo"><img src="../envoi__logo_T-.png" alt="" /></a>
+                    </Link>
                 </div>
             </div>
 

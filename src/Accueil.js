@@ -31,15 +31,16 @@ function Accueil() {
     return (
       <div className="top">
         <div className="accueil">
-            <Slideshow />
-            <div className='suii'>
+        <div className='suii'className="R">
               <h1 className=''>Suivi des envois</h1> 
-              <SearchBar
+              <SearchBar 
 						value={data.search}
 						onChange={(newValue) => setData({ search: newValue })}
 						onRequestSearch={() => goSearch(data.search)}
 					/>
             </div>
+            <Slideshow />
+
         </div> 
         <div className="Notre__metier">
           <div className="title__1">
@@ -59,7 +60,7 @@ function Accueil() {
           </div>
           <div className="title__1">
             <h1>L’expertise TMM</h1>
-            <p className="title__p">Transport Manager Maroc dispose par son expertise de solutions logistiques globales. Découvrez la vaste gamme de services, de solutions d’expédition et de suivi que nous vous proposons pour répondre à vos besoins.</p>
+            <p className="title__p">Transport Manager Maroc dispose par son expertise de solutions logistiques globales. Découvrez la vaste gamme de services, <br></br> de solutions d’expédition et de suivi que nous vous proposons pour répondre à vos besoins.</p>
             <Button component={ Link } to="/NosServices" variant="contained" color="secondary">Nos services</Button>
           </div>
         </div>

@@ -1,6 +1,6 @@
 .accueil{
-  margin-top: 11rem;
-  display: flex;
+  margin-top: 12rem;
+  display:flex;
 }
 
 .suivi{
@@ -67,8 +67,8 @@
 }
 .expedier{
   display: flex;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 20%;
+  margin-right: 20%;
   align-content: center;
 }
 .title__exp{
@@ -84,5 +84,10 @@
 }
 .button__colis{
   margin-right: 3rem;
+}
+.R{
+  margin:auto;
+  border-right-style: groove;
+   border-top-style: groove;
 }
 
