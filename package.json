@@ -34,11 +34,12 @@
     "react-slick": "^0.27.13",
     "react-slideshow-image": "^3.3.2",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
-	"start-api": "cd api && venv/Scripts/activate && flask run --no-debugger",
+    "start-api": "cd api && venv/Scripts/activate && flask run --no-debugger",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -55,7 +56,6 @@
       "not dead",
       "not op_mini all"
     ],
-	
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

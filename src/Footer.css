@@ -30,10 +30,9 @@
     margin-bottom: 2%;
   }
   .row-f{
-    margin-left:13%;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
   }
   .col-sm{
     color: white;

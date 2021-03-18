@@ -28,8 +28,10 @@
 }
 .Notre__metier{
   display: flex;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
 }
 .title__1{
   margin-top: 5rem;
@@ -50,15 +52,16 @@
   border-radius: 4px;
 }
 .title__img{
-  margin-left: 5em;
-  width: 50%;
+  width: auto;
 }
 .expertise{
   display: flex;
   background-color: #f1f1f1;
+  align-items: center;
+  justify-content: center;
 }
 .partenaires{
-  background-color: gray; 
+  background-color: #f1f1f1;
 }
 .slider__partenaire{
   padding: 0rem;
@@ -66,9 +69,6 @@
   margin-right: 3rem;
 }
 .expedier{
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
   align-content: center;
 }
 .title__exp{
