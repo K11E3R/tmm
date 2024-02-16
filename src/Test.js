@@ -128,6 +128,7 @@ const list = (anchor) => (
                     <br></br>
                 <div className="nav" id="navbar-center">
                 <ButtonGroup variant="contained" color="secondary" aria-label="contained primary button group">
+
                     <Button component={ Link } to="/Nous">Qui sommes-nous?</Button>
                     <Button component={ Link } to="/NosServices">Nos services</Button>
                     <Button component={ Link } to="/FaireEnvoi">Faire un envoi</Button>

@@ -1,0 +1,636 @@
+
+> sky-tmm-l20@0.1.0 start /home/ubuntu/tmm
+> react-scripts start
+
+Admin permissions are required to run a server on a port below 1024.
+
+> sky-tmm-l20@0.1.0 start /home/ubuntu/tmm
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://172.31.34.83/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/ubuntu/tmm/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+src/Accueil.js
+  Line 5:8:    'TextField' is defined but never used  no-unused-vars
+  Line 34:30:  No duplicate props allowed             react/jsx-no-duplicate-props
+
+src/App.js
+  Line 14:8:  'Manifeste' is defined but never used    no-unused-vars
+  Line 16:8:  'Gererenvois' is defined but never used  no-unused-vars
+  Line 26:8:  'App1' is defined but never used         no-unused-vars
+
+src/Components/Logout.js
+  Line 9:9:  'response' is assigned a value but never used  no-unused-vars
+
+src/Components/Posts/single.js
+  Line 34:5:  React Hook useEffect has a missing dependency: 'slug'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Components/admin/create.js
+  Line 54:18:  Unnecessary escape character: \-               no-useless-escape
+  Line 55:14:  Unnecessary escape character: \-               no-useless-escape
+  Line 55:16:  Unnecessary escape character: \-               no-useless-escape
+  Line 98:23:  Expected '===' and instead saw '=='            eqeqeq
+  Line 103:5:  Unnecessarily computed property ['nom'] found  no-useless-computed-key
+  Line 150:5:  Duplicate key 'author'                         no-dupe-keys
+
+src/Components/admin/delete.js
+  Line 1:17:  'useState' is defined but never used   no-unused-vars
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/Components/admin/edit.js
+  Line 74:5:   Unnecessarily computed property ['nom'] found                                                                                                                                                                                                    no-useless-computed-key
+  Line 75:5:   Unnecessarily computed property ['societe'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 76:5:   Unnecessarily computed property ['adresse1'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 77:5:   Unnecessarily computed property ['adresse2'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 78:5:   Unnecessarily computed property ['codep'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 79:5:   Unnecessarily computed property ['pays'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 80:5:   Unnecessarily computed property ['ville'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 81:5:   Unnecessarily computed property ['codet'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 82:5:   Unnecessarily computed property ['tele'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 83:5:   Unnecessarily computed property ['fax'] found                                                                                                                                                                                                    no-useless-computed-key
+  Line 84:5:   Unnecessarily computed property ['email'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 85:5:   Unnecessarily computed property ['noma'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 86:5:   Unnecessarily computed property ['societea'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 87:5:   Unnecessarily computed property ['adresse1a'] found                                                                                                                                                                                              no-useless-computed-key
+  Line 88:5:   Unnecessarily computed property ['adresse2a'] found                                                                                                                                                                                              no-useless-computed-key
+  Line 89:5:   Unnecessarily computed property ['codepa'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 90:5:   Unnecessarily computed property ['paysa'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 91:5:   Unnecessarily computed property ['villea'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 92:5:   Unnecessarily computed property ['codeta'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 93:5:   Unnecessarily computed property ['telea'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 94:5:   Unnecessarily computed property ['faxa'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 95:5:   Unnecessarily computed property ['emaila'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 96:5:   Unnecessarily computed property ['category'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 97:5:   Unnecessarily computed property ['poids'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 98:5:   Unnecessarily computed property ['largeur'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 99:5:   Unnecessarily computed property ['longueur'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 100:5:  Unnecessarily computed property ['hauteur'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 101:5:  Unnecessarily computed property ['valeur'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 102:5:  Unnecessarily computed property ['descriptif'] found                                                                                                                                                                                             no-useless-computed-key
+  Line 103:5:  Unnecessarily computed property ['instruction'] found                                                                                                                                                                                            no-useless-computed-key
+  Line 104:5:  Unnecessarily computed property ['nbcolis'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 108:5:  React Hook useEffect has missing dependencies: 'formData' and 'id'. Either include them or remove the dependency array. You can also do a functional update 'updateFormData(f => ...)' if you only need 'formData' in the 'updateFormData' call  react-hooks/exhaustive-deps
+  Line 155:5:  Duplicate key 'author'                                                                                                                                                                                                                           no-dupe-keys
+
+src/Footer.js
+  Line 28:15:  <iframe> elements must have a unique title property  jsx-a11y/iframe-has-title
+
+src/Gererenvois.js
+  Line 3:10:  'Link' is defined but never used  no-unused-vars
+
+src/List.js
+  Line 3:10:  'Link' is defined but never used  no-unused-vars
+
+src/Maniheader.js
+  Line 72:17:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 75:61:  No duplicate props allowed                                                                                                                                                                                                                                                                                                                                               react/jsx-no-duplicate-props
+  Line 98:21:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/NosServices.js
+  Line 33:33:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 46:33:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 58:33:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/Test.js
+  Line 124:17:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 145:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md         jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> sky-tmm-l20@0.1.0 start /home/ubuntu/tmm
+> react-scripts start
+
+Something is already running on port 80.
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /.env from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request / from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNRESET).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNRESET).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /.env from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request / from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /actuator/health from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /.env from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request / from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+sudo: PORT: command not found
+sudo: PORT: command not found
+sudo: PORT: command not found
+sudo: PORT: command not found
+sudo: PORT: command not found
+sudo: PORT: command not found
+sudo: PORT: command not found
+sudo: PORT: command not found
+yarn run v1.22.5
+$ react-scripts start
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://172.31.34.83/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/ubuntu/tmm/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+src/Accueil.js
+  Line 5:8:    'TextField' is defined but never used  no-unused-vars
+  Line 34:30:  No duplicate props allowed             react/jsx-no-duplicate-props
+
+src/App.js
+  Line 14:8:  'Manifeste' is defined but never used    no-unused-vars
+  Line 16:8:  'Gererenvois' is defined but never used  no-unused-vars
+  Line 26:8:  'App1' is defined but never used         no-unused-vars
+
+src/Components/Logout.js
+  Line 9:9:  'response' is assigned a value but never used  no-unused-vars
+
+src/Components/Posts/single.js
+  Line 34:5:  React Hook useEffect has a missing dependency: 'slug'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Components/admin/create.js
+  Line 54:18:  Unnecessary escape character: \-               no-useless-escape
+  Line 55:14:  Unnecessary escape character: \-               no-useless-escape
+  Line 55:16:  Unnecessary escape character: \-               no-useless-escape
+  Line 98:23:  Expected '===' and instead saw '=='            eqeqeq
+  Line 103:5:  Unnecessarily computed property ['nom'] found  no-useless-computed-key
+  Line 150:5:  Duplicate key 'author'                         no-dupe-keys
+
+src/Components/admin/delete.js
+  Line 1:17:  'useState' is defined but never used   no-unused-vars
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/Components/admin/edit.js
+  Line 74:5:   Unnecessarily computed property ['nom'] found                                                                                                                                                                                                    no-useless-computed-key
+  Line 75:5:   Unnecessarily computed property ['societe'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 76:5:   Unnecessarily computed property ['adresse1'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 77:5:   Unnecessarily computed property ['adresse2'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 78:5:   Unnecessarily computed property ['codep'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 79:5:   Unnecessarily computed property ['pays'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 80:5:   Unnecessarily computed property ['ville'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 81:5:   Unnecessarily computed property ['codet'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 82:5:   Unnecessarily computed property ['tele'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 83:5:   Unnecessarily computed property ['fax'] found                                                                                                                                                                                                    no-useless-computed-key
+  Line 84:5:   Unnecessarily computed property ['email'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 85:5:   Unnecessarily computed property ['noma'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 86:5:   Unnecessarily computed property ['societea'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 87:5:   Unnecessarily computed property ['adresse1a'] found                                                                                                                                                                                              no-useless-computed-key
+  Line 88:5:   Unnecessarily computed property ['adresse2a'] found                                                                                                                                                                                              no-useless-computed-key
+  Line 89:5:   Unnecessarily computed property ['codepa'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 90:5:   Unnecessarily computed property ['paysa'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 91:5:   Unnecessarily computed property ['villea'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 92:5:   Unnecessarily computed property ['codeta'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 93:5:   Unnecessarily computed property ['telea'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 94:5:   Unnecessarily computed property ['faxa'] found                                                                                                                                                                                                   no-useless-computed-key
+  Line 95:5:   Unnecessarily computed property ['emaila'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 96:5:   Unnecessarily computed property ['category'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 97:5:   Unnecessarily computed property ['poids'] found                                                                                                                                                                                                  no-useless-computed-key
+  Line 98:5:   Unnecessarily computed property ['largeur'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 99:5:   Unnecessarily computed property ['longueur'] found                                                                                                                                                                                               no-useless-computed-key
+  Line 100:5:  Unnecessarily computed property ['hauteur'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 101:5:  Unnecessarily computed property ['valeur'] found                                                                                                                                                                                                 no-useless-computed-key
+  Line 102:5:  Unnecessarily computed property ['descriptif'] found                                                                                                                                                                                             no-useless-computed-key
+  Line 103:5:  Unnecessarily computed property ['instruction'] found                                                                                                                                                                                            no-useless-computed-key
+  Line 104:5:  Unnecessarily computed property ['nbcolis'] found                                                                                                                                                                                                no-useless-computed-key
+  Line 108:5:  React Hook useEffect has missing dependencies: 'formData' and 'id'. Either include them or remove the dependency array. You can also do a functional update 'updateFormData(f => ...)' if you only need 'formData' in the 'updateFormData' call  react-hooks/exhaustive-deps
+  Line 155:5:  Duplicate key 'author'                                                                                                                                                                                                                           no-dupe-keys
+
+src/Footer.js
+  Line 28:15:  <iframe> elements must have a unique title property  jsx-a11y/iframe-has-title
+
+src/Gererenvois.js
+  Line 3:10:  'Link' is defined but never used  no-unused-vars
+
+src/List.js
+  Line 3:10:  'Link' is defined but never used  no-unused-vars
+
+src/Maniheader.js
+  Line 72:17:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 75:61:  No duplicate props allowed                                                                                                                                                                                                                                                                                                                                               react/jsx-no-duplicate-props
+  Line 98:21:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/NosServices.js
+  Line 33:33:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 46:33:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 58:33:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/Test.js
+  Line 124:17:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 145:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md         jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNRESET).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from 52.47.178.52 to http://localhost:5000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
