@@ -1,0 +1,14 @@
+.B1{
+    width :120px;
+    height: 49px;
+    border: none;
+    color : white;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 10px;
+ }
+ h2{
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+    color: rgb(251, 34, 107);
+ }
