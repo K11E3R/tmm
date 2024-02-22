@@ -65,7 +65,7 @@ const Search = () => {
 				
 				<div id="divDate">
 					<form>
-						<div class="searchDate">
+						<div class="searchDate" >
 							<label for="day">Veuillez saisir les dates de debut de fin :</label>
 							<td><input type="date" name="date1"class='form-control' id="debut"></input></td>
 							<td><input type="date" name="date2"class='form-control' id="fin"></input></td>

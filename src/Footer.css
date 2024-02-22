@@ -1,5 +1,5 @@
 .main-footer {
-  margin-top: 5rem;
+    margin-top: 5rem;
     align-items: center;
     color: black;
     background-color: #161414;
@@ -30,10 +30,9 @@
     margin-bottom: 2%;
   }
   .row-f{
-    
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
   }
   .col-sm{
     color: white;
@@ -48,4 +47,7 @@
   .img_l{
     margin-left: 25%;
     width:50%;
+  }
+  li{
+    list-style: none;
   }
